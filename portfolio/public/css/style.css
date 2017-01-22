@@ -1,0 +1,567 @@
+ body,html {
+  height:100%;
+  margin:0;
+  background: url('/img/bule3.jpg') no-repeat fixed;
+  background-size: cover;
+  font-family: sans-serif!important;
+  font-size: 16px;
+  z-index: 100%;
+  }
+
+  video, img {
+  height:100%; width:100%;
+  border-radius: 5px;
+  }
+video {background-color: black;}
+
+button:focus, a:focus {
+  outline:none!important;
+  }
+button:active {opacity:0.5;}
+section {
+  min-height: 250px!important;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-top: 1px;
+  background-image: url('/img/bule3.jpg') ;
+  }
+
+section:nth-of-type(2) {
+  background-image: url('/img/bule3.jpg')}
+
+
+h1,p, h2 {
+  padding:15px 15px 15px 40px;
+  }
+
+/*logo*/
+#logo {
+  height:50px; width:60px;
+  float:left; margin:-15px 25px 0 -15px;
+  }
+
+#logo:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px
+  }
+
+/*nav menu */
+#Hd {
+  margin: 100px 100px 50px 100px;
+  padding: 50px;
+  }
+
+.Hd {
+  color:#fff; background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  }
+
+#mainMenu a:hover {
+  background-color: #5CB85C;
+  border-radius: 5px}
+
+.dropdown-menu a:hover {
+  background-color: rgba(0, 0, 0, 0.2)!important;
+  border-radius: 0!important;
+  }
+
+#buttons button {margin: 2px;}
+
+/*Joombotron */
+#jumbOut {margin-bottom:-30px}
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.7)!important;
+  margin: 0 100px 0 100px;
+  padding:50px 0 50px;
+  }
+
+
+ #jumbIn {background-color: white; border-radius: 5px}
+
+/* Jumbotron img */
+
+#my img {
+  height:175px; width:175px;
+  margin: 20px 30px 10px 40px;
+  box-shadow:  0px 0px 50px black;
+  padding:10px;
+}
+
+/*portfolio*/
+
+#portfolio {
+  padding-top: 50px;
+}
+
+#rowPortf {
+  margin: 0 100px 0 100px;
+  padding-bottom: 25px;
+}
+
+#carousel {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.devices {
+  position: relative;
+  height: 575px;
+  overflow: hidden;
+}
+
+.mobile {
+  background: url(http://i41.tinypic.com/332846d.png) no-repeat -278px -479px;
+  position: absolute;
+  width: 130px;
+  height: 251px;
+  top: 330px;
+  left: 520px;
+  z-index: 3;
+}
+
+.mobile img {
+  position: absolute;
+  width: 108px;
+  height: 162px;
+  top: 41px;
+  left: 11px;
+
+}
+
+.tablet {
+  background: url('/img/bule3.jpg') no-repeat 0 -470px;
+  width: 264px;
+  height: 348px;
+  z-index: 2;
+  position: absolute;
+  top: 227px;
+  overflow: hidden;
+}
+.tablet img {
+ width: 212px;
+  height: 290px;
+  position: absolute;
+  top: 30px;
+  left:25px;
+}
+
+.desktop {
+  position: absolute;
+  width: 594px;
+  height: 457px;
+  background: url('/img/bule3.jpg') no-repeat 0 0;
+  top: 0px;
+  left: 100px;
+  overflow: hidden;
+}
+.desktop img {
+  position: absolute;
+  width: 549px;
+  height: 315px;
+  left:20px;
+  top:22px;
+}
+.carousel-control:hover {
+  background-color: rgba(255,255,255,0.5)
+}
+
+/*footer */
+.row-centered {
+  text-align: center;
+}
+.fixed {
+  position: fixed; bottom:0; left:0;
+  border-radius: 0  30px 0 0!important;
+}
+/* Medium Devices, Desktops /-md-/*/
+@media only screen and (max-width : 992px) {
+.jumbotron {margin: 0  auto;}
+#rowPortf { margin:0 auto;}
+}
+
+/* Small Devices, Tablets /-sm-/*/
+@media only screen and (max-width : 768px) {
+.img-zoom-out {margin: 40px!important}
+#Hd {margin: 50px 0 50px 0; padding: 0 0 50px 0;}
+#rowPortf { margin:0 0px  0 auto; overflow: hidden}
+}
+
+/* Extra Small Devices, Phones /-xs-/ */
+@media only screen and (max-width : 480px) {
+#my img {margin: 30px 70px 30px 90px;}
+.jumbotron {padding: 20px 0 20px 0;}
+.desktop, .mobile {display:none;}
+.tablet {top:0; left:8%}
+.carousel-indicators {left:27%!important;}
+.carousel-indicators>li, .carousel-indicators>.active {
+	width:2em!important; height:2em!important; border-radius: 50%!important;
+}
+.devices {height:422px;}
+#rowPortf { margin:0 auto;}
+#rowPortf h2{margin-left: -50px}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.tablet {top:0; left:5%}
+.carousel-indicators {left:24%;}
+#rowPortf h2{margin-left: -70px}
+}
+
+
+/*skills*/
+
+
+.box{
+
+	width: 80%;
+	box-shadow: 0 10px 6px -6px #000;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 50px 10px;
+	margin: 0 auto;
+}
+
+h3{
+	font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	color: #444;
+	text-align: center;
+}
+
+
+
+.bg{
+	background: #f2efef;
+  border-radius: 20px;
+  width: auto;
+	margin: 0 auto;
+}
+
+.html{
+	background: -webkit-linear-gradient(135deg,
+		#009999 25%, #008283 25%,
+		#008283 50%, #009999 50%,
+		#009999 75%, #008283 75%);
+  background: -moz-linear-gradient(135deg,
+		#009999 25%, #008283 25%,
+		#008283 50%, #009999 50%,
+		#009999 75%, #008283 75%);
+  background: -o-linear-gradient(135deg,
+		#009999 25%, #008283 25%,
+		#008283 50%, #009999 50%,
+		#009999 75%, #008283 75%);
+	width: 70%;
+	height: 37px;
+	padding: 10px 10px;
+	background-size: 50px 50px;
+  border-radius: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-animation: animasi 3.0s linear infinite;
+  -moz-animation: animasi 3.0s linear infinite;
+  -o-animation: animasi 3.0s linear infinite;
+}
+
+.css{
+	background: -webkit-linear-gradient(135deg,
+		#E74C3C 25%, #C0392B 25%,
+		#C0392B 50%, #E74C3C 50%,
+		#E74C3C 75%, #C0392B 75%);
+  background: -moz-linear-gradient(135deg,
+		#E74C3C 25%, #C0392B 25%,
+		#C0392B 50%, #E74C3C 50%,
+		#E74C3C 75%, #C0392B 75%);
+  background: -o-linear-gradient(135deg,
+		#E74C3C 25%, #C0392B 25%,
+		#C0392B 50%, #E74C3C 50%,
+		#E74C3C 75%, #C0392B 75%);
+	width: 70%;
+	height: 37px;
+	padding: 10px 10px;
+	background-size: 50px 50px;
+  border-radius: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-animation: animasi 3.0s linear infinite;
+  -moz-animation: animasi 3.0s linear infinite;
+  -o-animation: animasi 3.0s linear infinite;
+}
+.php{
+	background: -webkit-linear-gradient(135deg,
+		#F1C40F 25%, #F39C12 25%,
+		#F39C12 50%, #F1C40F 50%,
+		#F1C40F 75%, #F39C12 75%);
+  background: -moz-linear-gradient(135deg,
+		#F1C40F 25%, #F39C12 25%,
+		#F39C12 50%, #F1C40F 50%,
+		#F1C40F 75%, #F39C12 75%);
+  background: -o-linear-gradient(135deg,
+		#F1C40F 25%, #F39C12 25%,
+		#F39C12 50%, #F1C40F 50%,
+		#F1C40F 75%, #F39C12 75%);
+	width: 50%;
+	height: 37px;
+	padding: 10px 10px;
+	background-size: 50px 50px;
+  border-radius: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-animation: animasi 3.0s linear infinite;
+  -moz-animation: animasi 3.0s linear infinite;
+  -o-animation: animasi 3.0s linear infinite;
+}
+
+.java{
+  background: -webkit-linear-gradient(135deg,
+		#009999 25%, #008283 25%,
+		#008283 50%, #009999 50%,
+		#009999 75%, #008283 75%);
+  background: -moz-linear-gradient(135deg,
+		#009999 25%, #008283 25%,
+		#008283 50%, #009999 50%,
+		#009999 75%, #008283 75%);
+  background: -o-linear-gradient(135deg,
+		#009999 25%, #008283 25%,
+		#008283 50%, #009999 50%,
+		#009999 75%, #008283 75%);
+	width: 50%;
+	height: 37px;
+	padding: 10px 10px;
+	background-size: 50px 50px;
+  border-radius: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-animation: animasi 3.0s linear infinite;
+  -moz-animation: animasi 3.0s linear infinite;
+  -o-animation: animasi 3.0s linear infinite;
+}
+
+
+
+
+.wordpress{
+  background: -webkit-linear-gradient(135deg,
+		#E74C3C 25%, #C0392B 25%,
+		#C0392B 50%, #E74C3C 50%,
+		#E74C3C 75%, #C0392B 75%);
+  background: -moz-linear-gradient(135deg,
+		#E74C3C 25%, #C0392B 25%,
+		#C0392B 50%, #E74C3C 50%,
+		#E74C3C 75%, #C0392B 75%);
+  background: -o-linear-gradient(135deg,
+		#E74C3C 25%, #C0392B 25%,
+		#C0392B 50%, #E74C3C 50%,
+		#E74C3C 75%, #C0392B 75%);
+	width: 70%;
+	height: 37px;
+	padding: 10px 10px;
+	background-size: 50px 50px;
+  border-radius: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-animation: animasi 3.0s linear infinite;
+  -moz-animation: animasi 3.0s linear infinite;
+  -o-animation: animasi 3.0s linear infinite;
+}
+.joomla{
+	background: -webkit-linear-gradient(135deg,
+		#F1C40F 25%, #F39C12 25%,
+		#F39C12 50%, #F1C40F 50%,
+		#F1C40F 75%, #F39C12 75%);
+  background: -moz-linear-gradient(135deg,
+		#F1C40F 25%, #F39C12 25%,
+		#F39C12 50%, #F1C40F 50%,
+		#F1C40F 75%, #F39C12 75%);
+  background: -o-linear-gradient(135deg,
+		#F1C40F 25%, #F39C12 25%,
+		#F39C12 50%, #F1C40F 50%,
+		#F1C40F 75%, #F39C12 75%);
+	width: 70%;
+	height: 37px;
+	padding: 10px 10px;
+	background-size: 50px 50px;
+  border-radius: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-animation: animasi 3.0s linear infinite;
+  -moz-animation: animasi 3.0s linear infinite;
+  -o-animation: animasi 3.0s linear infinite;
+}
+.github{
+  background: -webkit-linear-gradient(135deg,
+    #009999 25%, #008283 25%,
+    #008283 50%, #009999 50%,
+    #009999 75%, #008283 75%);
+  background: -moz-linear-gradient(135deg,
+    #009999 25%, #008283 25%,
+    #008283 50%, #009999 50%,
+    #009999 75%, #008283 75%);
+  background: -o-linear-gradient(135deg,
+    #009999 25%, #008283 25%,
+    #008283 50%, #009999 50%,
+    #009999 75%, #008283 75%);
+	width: 70%;
+	height: 37px;
+	padding: 10px 10px;
+	background-size: 50px 50px;
+  border-radius: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-animation: animasi 3.0s linear infinite;
+  -moz-animation: animasi 3.0s linear infinite;
+  -o-animation: animasi 3.0s linear infinite;
+}
+
+@-webkit-keyframes animasi {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px
+    }
+}
+
+@-moz-keyframes animasi {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px
+    }
+}
+
+@-o-keyframes animasi {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px
+    }
+}
+.right{
+	float: right;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 1px;
+}
+
+.left{
+	float: left;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 1px;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+.slides {
+    padding: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}
